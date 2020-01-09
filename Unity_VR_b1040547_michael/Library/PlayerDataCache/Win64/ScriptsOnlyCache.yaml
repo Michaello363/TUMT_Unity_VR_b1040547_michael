@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     - Valve.VR.InteractionSystem.Teleport
     - Valve.VR.InteractionSystem.TeleportArc
     - Valve.VR.InteractionSystem.TeleportArea
+    - Valve.VR.InteractionSystem.TeleportPoint
     - Valve.VR.InteractionSystem.Throwable
     - Valve.VR.InteractionSystem.UIElement
     - Valve.VR.SteamVR_ActivateActionSetOnLoad
@@ -36,6 +37,7 @@ ScriptsOnlyBuild:
     - Valve.VR.SteamVR_Skeleton_Poser
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -97,6 +99,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 9720}
     - Class: 114
@@ -133,6 +137,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10414}
     - Class: 114
       Script: {instanceID: 10418}
+    - Class: 114
+      Script: {instanceID: 10572}
     - Class: 114
       Script: {instanceID: 10650}
     - Class: 114
@@ -1405,4 +1411,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/user/Desktop/TUMT_Unity_VR_b1040547_michael/EXE/Unity_VR_b1040547_michael.exe
+  playerPath: C:/Users/User/Desktop/TUMT_Unity_VR_b1040547_michael/EXE/Unity_VR_b1040547_michael.exe
